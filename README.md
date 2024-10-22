@@ -12,6 +12,3 @@ I am currently working at a startup, LGS, where I lead two teams in developing a
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MythologicalFalcon&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MythologicalFalcon&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
----
-[![](https://visitcount.itsvg.in/api?id=MythologicalFalcon&icon=0&color=0)](https://visitcount.itsvg.in)
-

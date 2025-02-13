@@ -1,5 +1,5 @@
 # 💫 About Me:
-I currently work at a startup, LGS, where I lead two teams in developing an application for remotely controlling devices. Previously, I worked at Tata Consultancy Services (TCS) on projects for Ericsson. I am strongly interested in collaborating with other software development enthusiasts and enjoy exploring different approaches to problem-solving. I am focused on enhancing my backend and API development skills, constantly learning as the field evolves. Feel free to reach out with challenging scenarios I’m always excited to dive into complex problem-solving and innovative solutions.
+Currently working for Meta. Worked at LGS, where I lead two teams in developing an application for remotely controlling devices. Previously, I worked at Tata Consultancy Services (TCS) on projects for Ericsson. I am strongly interested in collaborating with other software development enthusiasts and enjoy exploring different approaches to problem-solving. I am focused on enhancing my backend and API development skills, constantly learning as the field evolves. Feel free to reach out with challenging scenarios I’m always excited to dive into complex problem-solving and innovative solutions.
 
 
 ## 🌐 Socials:

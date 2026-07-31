@@ -38,7 +38,7 @@ quality.
 Email: [anirudhmaheswaram@gmail.com](mailto:anirudhmaheswaram@gmail.com)
 LinkedIn: [anirudh-maheswaram](https://www.linkedin.com/in/anirudh-maheswaram/)
 GitHub: [github.com/MythologicalFalcon](https://github.com/MythologicalFalcon)
-Location: Tempe, Arizona, United States
+Location: Texas, United States
 
 <a id="value"></a>
 

@@ -3,13 +3,13 @@
     Hi, I'm <span style="color:#F5F752;">Anirudh Maheswaram</span><br>
     Senior Software Engineer • Full Stack • AI / LLM Engineering
   </h2>
-  <h4>Full-stack engineer building production AI agents and operational tooling for infrastructure teams</h4>
-  <span><b>React</b> • TypeScript • Python • GraphQL • Java • LLM Agents • RAG • Kubernetes • PostgreSQL</span>
+  <h3>Full-stack engineer building production AI agents and operational tooling for infrastructure teams</h3>
+  <span>React • TypeScript • Python • GraphQL • Java • LLM Agents • RAG • Kubernetes • PostgreSQL</span>
 </div>
 
 <div align="center">
   <a href="#profile">Profile</a> ·
-  <a href="#value">What I Bring</a> ·
+  <a href="#value">What I bring</a> ·
   <a href="#achievements">Achievements</a> ·
   <a href="#experience">Experience</a> ·
   <a href="#projects">Projects</a> ·
@@ -17,79 +17,74 @@
   <a href="#fit">Focus</a>
 </div>
 
----
-
 <a id="profile"></a>
 
-## Short Profile
+## Short profile
 
 I build software for the people who keep systems running. Six years across network
 management at Ericsson and incident response at Meta: dashboards, real-time event
-streams, alerting, and now autonomous agents in the live incident path. Full-stack by
-default. I own a feature from the React surface through the API layer to the service
-behind it.
+streams, alerting, and now autonomous agents in the live incident path. I own a
+feature from the React surface through the API layer to the service behind it.
 
-- **6+ years professional engineering experience:** Java/Spring/Angular platform work at TCS, then full-stack React/GraphQL/Python at Meta via HCLTech.
-- **Strong area:** operational tooling. Incident management, oncall workflows, network monitoring, and the AI layer on top of them.
-- **Production AI, not demos:** custom agent loop, tool-calling, guardrails, RAG over operational history, and an eval harness measuring output quality. Shipped, in use, measured.
-- **Rare combination:** full-stack depth plus real LLM engineering plus six years inside the operations and observability domain.
+Six years of paid engineering. Java, Spring, and Angular platform work at TCS, then
+full-stack React, GraphQL, and Python at Meta via HCLTech. The domain has not changed
+much in that time. It is operational tooling for infrastructure teams: incident
+management, oncall workflows, network monitoring, and now the AI layer on top of them.
 
-**Email:** [anirudhmaheswaram@gmail.com](mailto:anirudhmaheswaram@gmail.com)
-**LinkedIn:** [anirudh-maheswaram](https://www.linkedin.com/in/anirudh-maheswaram/)
-**GitHub:** [github.com/MythologicalFalcon](https://github.com/MythologicalFalcon)
-**Location:** Tempe, Arizona, United States
+The AI work runs in production. I wrote the agent loop, the tool-calling, the
+guardrails, RAG over operational history, and an eval harness that measures output
+quality.
 
----
+Email: [anirudhmaheswaram@gmail.com](mailto:anirudhmaheswaram@gmail.com)
+LinkedIn: [anirudh-maheswaram](https://www.linkedin.com/in/anirudh-maheswaram/)
+GitHub: [github.com/MythologicalFalcon](https://github.com/MythologicalFalcon)
+Location: Tempe, Arizona, United States
 
 <a id="value"></a>
 
-## What I Bring
+## What I bring
 
 I'm most useful where a team needs an engineer who can:
 
-- ship full-stack features end to end: React and TypeScript on the front, GraphQL and Python or Java services behind;
-- design LLM systems that survive contact with production: agent loops, tool-calling, guardrails, retrieval, and evals that catch regressions before release;
-- work in the operations domain natively: incidents, oncall rotations, alerting, runbooks, telemetry, fault management;
-- build backend services on Spring Boot, FastAPI, Kafka, PostgreSQL, Docker, and Kubernetes;
-- take a task from stakeholder request through design, implementation, rollout, and support;
-- lead a team: assigning work, reviewing output, mentoring, and keeping delivery on track.
-
----
+- ship full-stack features end to end: React and TypeScript on the front, GraphQL and Python or Java services behind
+- design LLM systems that survive contact with production: agent loops, tool-calling, guardrails, retrieval, and evals that catch regressions before release
+- work in the operations domain natively: incidents, oncall rotations, alerting, runbooks, telemetry, fault management
+- build backend services on Spring Boot, FastAPI, Kafka, PostgreSQL, Docker, and Kubernetes
+- take a task from stakeholder request through design, implementation, rollout, and support
+- lead a team: assign work, review output, mentor, keep delivery on track
 
 <a id="achievements"></a>
 
-## Key Achievements
+## Key achievements
 
-### AI / LLM Engineering
+### AI and LLM engineering
 
-- Built an **agentic remediation system** on Claude and OpenAI Codex, authoring the agent loop, tool-calling, and guardrails. It executes runbook steps autonomously during live incidents, removing manual toil from the oncall path.
-- Built **LLM auto-triage** that classifies incident severity and routes to the correct oncall rotation, cutting the manual step between alert and acknowledgement.
-- Implemented **RAG over runbooks and historical incidents**, so remediation grounds in the team's real operational history rather than model priors.
-- Built an **eval harness** measuring output quality and catching regressions before release, so agent behaviour ships against a measured baseline.
-- Added **automated summarization** of incident threads and oncall handoffs, preserving context across rotation changes.
+- Built an agentic remediation system on Claude and OpenAI Codex. I wrote the agent loop, the tool-calling, and the guardrails. It runs runbook steps on its own during live incidents, so the oncall engineer does not have to.
+- Built LLM auto-triage. It classifies incident severity and routes to the correct oncall rotation, so nobody has to sit between the alert firing and someone acknowledging it.
+- Implemented RAG over runbooks and past incidents, so remediation grounds in what the team actually did before.
+- Built an eval harness. It measures output quality and catches regressions before release.
+- Added automated summarization of incident threads and oncall handoffs. Context survives a rotation change.
 
-### Full-Stack Platform Engineering
+### Full-stack platform engineering
 
-- Full-stack development on internal incident-response tooling used by thousands of engineers company-wide, in React, GraphQL, Python, and Hack.
-- Built and maintained an operator dashboard in **Angular 6** against **Java Spring Boot** services, giving network teams visibility across Ericsson router fleets.
-- Migrated a multi-page UI to a **single-page application** in Angular, TypeScript, and ES6, improving load times and navigation.
-- Built a secure remote-access dashboard in Python and React with **role-based access control**, cutting time to reach critical data by 30% at 99.9% uptime.
+- Full-stack work on internal incident-response tooling used by thousands of engineers company-wide. React, GraphQL, Python, Hack.
+- Built and maintained an operator dashboard in Angular 6 against Java Spring Boot services. Network teams use it to see across Ericsson router fleets.
+- Migrated a multi-page UI to a single-page application in Angular, TypeScript, and ES6. Load times and navigation both improved.
+- Built a secure remote-access dashboard in Python and React with role-based access control. Time to reach critical data dropped 30%, at 99.9% uptime.
 
-### Backend, Data And Infrastructure
+### Backend, data, and infrastructure
 
-- Implemented **Kafka** for real-time event-driven processing, carrying device events and telemetry through the platform for monitoring and analysis.
-- Built **Spring microservices** on JBoss EAP7 with Docker and Kubernetes, using JMS for inter-service messaging.
-- Cut memory consumption by **2 GB** through profiling and resource optimisation.
-- Automated build and deployment with **Jenkins** and **GitHub Actions**.
+- Implemented Kafka for real-time event processing. Device events and telemetry move through the platform on it.
+- Built Spring microservices on JBoss EAP7, deployed with Docker and Kubernetes. JMS handles inter-service messaging.
+- Cut memory consumption by 2 GB through profiling.
+- Automated build and deployment with Jenkins and GitHub Actions.
 
-### Mobile And Side Projects
+### Mobile and side projects
 
-- Shipped an **offline-first Android app** in React Native and TypeScript. Card catalog, wallet, and recommendation engine all run with no network access.
-- Replaced Google Maps with **MapLibre + OpenFreeMap**, eliminating API key management and third-party cost from the release entirely.
-- Built a release pipeline on **GCP Cloud Build** producing signed Android App Bundles to the Play Store internal track.
-- Stored wallet data on device with **hardware-backed encryption**.
-
----
+- Shipped an offline-first Android app in React Native and TypeScript. The card catalog, wallet, and recommendation engine all run with no network.
+- Replaced Google Maps with MapLibre and OpenFreeMap. No API keys to manage, no third-party cost in the release.
+- Built a release pipeline on GCP Cloud Build. It produces signed Android App Bundles to the Play Store internal track.
+- Wallet data is stored on device with hardware-backed encryption.
 
 <a id="experience"></a>
 
@@ -102,8 +97,8 @@ I'm most useful where a team needs an engineer who can:
 
 - Full-stack development on internal incident-response tooling used by thousands of engineers company-wide.
 - Built an agentic remediation system on Claude and Codex: agent loop, tool-calling, guardrails, autonomous runbook execution during live incidents.
-- Built LLM auto-triage classifying incident severity and routing to the correct oncall rotation.
-- Implemented RAG over runbooks and historical incidents. Built an eval harness measuring output quality and catching regressions before release.
+- Built LLM auto-triage that classifies incident severity and routes to the correct oncall rotation.
+- Implemented RAG over runbooks and past incidents. Built an eval harness that measures output quality and catches regressions before release.
 - Own feature requests, workflow design, and production bug fixes across both platforms.
 - Stack: React, GraphQL, Python, Hack, Claude API, OpenAI Codex.
 
@@ -112,8 +107,8 @@ I'm most useful where a team needs an engineer who can:
 **Software Engineer & Team Lead (Volunteer)**
 **July 2024 - November 2024 · Tempe, AZ**
 
-- Led a team of 6 engineers while contributing hands-on: assigning work, reviewing output, mentoring juniors.
-- Built a secure dashboard for remote data access, cutting time to reach critical data by 30% at 99.9% uptime.
+- Led a team of 6 engineers while contributing hands-on: assigned work, reviewed output, mentored juniors.
+- Built a secure dashboard for remote data access. Time to reach critical data dropped 30%, at 99.9% uptime.
 - Implemented role-based access control and maintained PostgreSQL databases.
 - Built CI/CD pipelines with GitHub Actions for automated build and deployment.
 - Stack: Python, React, HTML/CSS, PostgreSQL, GitHub Actions, Jira, Confluence.
@@ -124,7 +119,7 @@ I'm most useful where a team needs an engineer who can:
 **October 2022 - May 2024 · Tempe, AZ**
 
 - Diagnosed and resolved issues across ASU's application and student portals in Java and Angular.
-- Built a Python script generating statistical reports on admissions data for internal decision-making.
+- Built a Python script that generates statistical reports on admissions data for internal decision-making.
 - Stack: Java, Angular, Python, SQL.
 
 ### Tata Consultancy Services (Client: Ericsson)
@@ -133,45 +128,45 @@ I'm most useful where a team needs an engineer who can:
 **June 2018 - October 2022, 4+ years · Hyderabad, India**
 
 - Full-stack development of a network management platform for Ericsson routers, from the operator dashboard through to the backend services handling device data.
-- Kafka for real-time event-driven processing across the router fleet. JMS for inter-service messaging.
+- Kafka for real-time event processing across the router fleet. JMS for inter-service messaging.
 - Spring microservices on JBoss EAP7, deployed with Docker and Kubernetes.
-- 2 GB memory reduction through profiling. SPA migration improving load times.
+- Cut memory consumption by 2 GB through profiling. Migrated the UI to an SPA, which improved load times.
 - Stack: Angular 6, TypeScript, ES6, Java, Spring Boot, REST, JMS, Kafka, Docker, Kubernetes, JBoss EAP7, Jenkins.
 
-### Earlier Roles
+### Earlier roles
 
 **2017 - 2018**
 
-- **TCS Intern:** emulated software-defined networks with Mininet and OpenDaylight, implementing shortest-path and alternate-path routing.
-- **ONGC Intern:** SCADA line and satellite communications for industrial telemetry. Analysed radio communications and stored sensor data with lower memory utilisation.
-
----
+- TCS intern. Emulated software-defined networks with Mininet and OpenDaylight, and implemented shortest-path and alternate-path routing.
+- ONGC intern. SCADA line and satellite communications for industrial telemetry. Analysed radio communications and stored sensor data at lower memory utilisation.
 
 <a id="projects"></a>
 
-## Selected Projects
+## Selected projects
 
 | Project | What it proves | Technologies |
 | --- | --- | --- |
 | [WhichCard](https://github.com/MythologicalFalcon/whichcard) | Offline-first mobile architecture, on-device encryption, full CI/CD to a signed release artifact | React Native, Expo, TypeScript, MapLibre, Supabase, GCP Cloud Build, Docker |
 | [Trade](https://github.com/MythologicalFalcon/trade) | Production-shaped full-stack system: auth with row-level security, orchestration, ML scoring, API layer, web and mobile clients | FastAPI, GraphQL, React, Vite, Supabase, Firestore, Airflow, scikit-learn, Capacitor |
 
-**WhichCard.** Recommends the best credit card to use at any merchant to maximise cashback,
-points, or miles. Card catalog, wallet, and recommendation engine all run with no network.
-Google Maps was deliberately replaced with MapLibre + OpenFreeMap to remove API key
-management entirely. Ships to the Play Store internal track through GCP Cloud Build.
+### WhichCard
 
-**Trade.** A five-stage stock analysis pipeline producing buy and sell recommendations:
-technical indicators, company fundamentals, 13-pattern chart detection, news sentiment via
-VADER, and a weighted decision scorer that fine-tunes on ML once enough samples exist.
-Supabase Postgres with row-level security backs per-user watchlists. Airflow runs nightly
-batch analysis, and Firestore drives realtime pipeline status in the UI.
+Recommends the best credit card to use at any merchant to maximise cashback, points,
+or miles. The card catalog, wallet, and recommendation engine all run with no network.
+I dropped Google Maps for MapLibre and OpenFreeMap to get rid of API key management
+entirely. It ships to the Play Store internal track through GCP Cloud Build.
 
----
+### Trade
+
+A five-stage stock analysis pipeline that produces buy and sell recommendations:
+technical indicators, company fundamentals, 13-pattern chart detection, news sentiment
+via VADER, and a weighted decision scorer that fine-tunes on ML once there are enough
+samples. Supabase Postgres with row-level security backs per-user watchlists. Airflow
+runs nightly batch analysis, and Firestore drives realtime pipeline status in the UI.
 
 <a id="stack"></a>
 
-## Technology Stack
+## Technology stack
 
 **Languages:** TypeScript, JavaScript/ES6, Python, Java, SQL, Hack/PHP, HTML5, CSS3
 **AI / LLM:** Claude (Anthropic API), OpenAI Codex, agent loop design, tool-calling, RAG, LLM evals, prompt engineering, auto-triage and classification, summarization
@@ -181,22 +176,24 @@ batch analysis, and Firestore drives realtime pipeline status in the UI.
 **Infrastructure:** Docker, Kubernetes, JBoss EAP7, Jenkins, GitHub Actions, GCP Cloud Build, Airflow, Git
 **Data / ML:** scikit-learn, Airflow, yfinance, VADER sentiment, statistical reporting
 **Domain:** incident management, oncall tooling, network management, SDN (Mininet/OpenDaylight), telemetry, SCADA
-**Practices:** CI/CD, RBAC, memory profiling and performance optimisation, technical documentation, Agile/Scrum, team leadership
-
----
+**Practices:** CI/CD, RBAC, memory profiling, performance optimisation, technical documentation, Agile/Scrum, team leadership
 
 <a id="fit"></a>
 
 ## Focus
 
-The work I do best, and the work I want more of:
+The work I do best, and want more of.
 
-- **Senior Full-Stack Engineering.** React, GraphQL, Python and Java services, product development and internal platforms.
-- **AI / LLM Engineering.** Agent systems, retrieval, tool-calling, guardrails, and the evals that make any of it trustworthy.
-- **Platform / Developer Productivity.** Internal tools, workflow design, and the work that saves an engineering org hours it otherwise never gets back.
-- **SRE Tooling / Incident Response.** Six years of operational tooling for infrastructure teams, from router fleet monitoring to oncall automation.
+Senior full-stack engineering. React, GraphQL, Python and Java services, product work
+and internal platforms.
 
----
+AI and LLM engineering. Agent systems, retrieval, tool-calling, guardrails, and the
+evals that make any of it trustworthy.
+
+Platform and developer productivity. Internal tools and workflow design.
+
+SRE tooling and incident response. Six years of operational tooling for infrastructure
+teams, from router fleet monitoring to oncall automation.
 
 <div align="center">
   <sub>2026</sub>

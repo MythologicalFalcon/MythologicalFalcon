@@ -1,7 +1,7 @@
 <div align="center">
   <h2>
     Hi, I'm <span style="color:#F5F752;">Anirudh Maheswaram</span><br>
-    Senior Software Engineer • Full Stack • AI / LLM Engineering
+    Senior Software Engineer • Full Stack • AI / LLM
   </h2>
   <h3>Full-stack engineer building production AI agents and operational tooling for infrastructure teams</h3>
   <span>React • TypeScript • Python • GraphQL • Java • LLM Agents • RAG • Kubernetes • PostgreSQL</span>
